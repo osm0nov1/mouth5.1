@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DF4BF88ADB951DA90AEBED3 /* Pods_mouth5_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CD003B3D5AEF7E7CF64DC5 /* Pods_mouth5_1.framework */; };
 		C0664EFD27EB5AA30098EE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0664EFC27EB5AA30098EE86 /* AppDelegate.swift */; };
 		C0664EFF27EB5AA30098EE86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0664EFE27EB5AA30098EE86 /* SceneDelegate.swift */; };
 		C0664F0127EB5AA30098EE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0664F0027EB5AA30098EE86 /* ViewController.swift */; };
 		C0664F0427EB5AA30098EE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0664F0227EB5AA30098EE86 /* Main.storyboard */; };
 		C0664F0627EB5AA30098EE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0664F0527EB5AA30098EE86 /* Assets.xcassets */; };
 		C0664F0927EB5AA30098EE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0664F0727EB5AA30098EE86 /* LaunchScreen.storyboard */; };
+		C0C7B67B27F44FC700E57AAA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7B67A27F44FC700E57AAA /* Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15CD003B3D5AEF7E7CF64DC5 /* Pods_mouth5_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mouth5_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303E1219DACFB322D3E1FCF6 /* Pods-mouth5.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mouth5.1.debug.xcconfig"; path = "Target Support Files/Pods-mouth5.1/Pods-mouth5.1.debug.xcconfig"; sourceTree = "<group>"; };
 		C0664EF927EB5AA30098EE86 /* mouth5.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mouth5.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0664EFC27EB5AA30098EE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0664EFE27EB5AA30098EE86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,9 @@
 		C0664F0527EB5AA30098EE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0664F0827EB5AA30098EE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0664F0A27EB5AA30098EE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C7B67A27F44FC700E57AAA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		C0FC1D4127F05FD5004E1289 /* mouth5.1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mouth5.1.entitlements; sourceTree = "<group>"; };
+		CD79A709964899C9713039EB /* Pods-mouth5.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mouth5.1.release.xcconfig"; path = "Target Support Files/Pods-mouth5.1/Pods-mouth5.1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF4BF88ADB951DA90AEBED3 /* Pods_mouth5_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66BC75F1EE07AFD998DC0398 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				303E1219DACFB322D3E1FCF6 /* Pods-mouth5.1.debug.xcconfig */,
+				CD79A709964899C9713039EB /* Pods-mouth5.1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73197430AF8378B8A047374C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15CD003B3D5AEF7E7CF64DC5 /* Pods_mouth5_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0664EF027EB5AA20098EE86 = {
 			isa = PBXGroup;
 			children = (
 				C0664EFB27EB5AA30098EE86 /* mouth5.1 */,
 				C0664EFA27EB5AA30098EE86 /* Products */,
+				66BC75F1EE07AFD998DC0398 /* Pods */,
+				73197430AF8378B8A047374C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +83,11 @@
 		C0664EFB27EB5AA30098EE86 /* mouth5.1 */ = {
 			isa = PBXGroup;
 			children = (
+				C0FC1D4127F05FD5004E1289 /* mouth5.1.entitlements */,
 				C0664EFC27EB5AA30098EE86 /* AppDelegate.swift */,
 				C0664EFE27EB5AA30098EE86 /* SceneDelegate.swift */,
 				C0664F0027EB5AA30098EE86 /* ViewController.swift */,
+				C0C7B67A27F44FC700E57AAA /* Search.swift */,
 				C0664F0227EB5AA30098EE86 /* Main.storyboard */,
 				C0664F0527EB5AA30098EE86 /* Assets.xcassets */,
 				C0664F0727EB5AA30098EE86 /* LaunchScreen.storyboard */,
@@ -74,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0664F0D27EB5AA30098EE86 /* Build configuration list for PBXNativeTarget "mouth5.1" */;
 			buildPhases = (
+				8C194BCD3E6B7A664A419F21 /* [CP] Check Pods Manifest.lock */,
 				C0664EF527EB5AA30098EE86 /* Sources */,
 				C0664EF627EB5AA30098EE86 /* Frameworks */,
 				C0664EF727EB5AA30098EE86 /* Resources */,
+				9BD504D1705224B89BD0E534 /* [CP] Embed Pods Frameworks */,
+				46BBC644CAF48A31E250D9B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,12 +165,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46BBC644CAF48A31E250D9B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mouth5.1/Pods-mouth5.1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mouth5.1/Pods-mouth5.1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mouth5.1/Pods-mouth5.1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C194BCD3E6B7A664A419F21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mouth5.1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD504D1705224B89BD0E534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mouth5.1/Pods-mouth5.1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mouth5.1/Pods-mouth5.1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mouth5.1/Pods-mouth5.1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0664EF527EB5AA30098EE86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C0664F0127EB5AA30098EE86 /* ViewController.swift in Sources */,
+				C0C7B67B27F44FC700E57AAA /* Search.swift in Sources */,
 				C0664EFD27EB5AA30098EE86 /* AppDelegate.swift in Sources */,
 				C0664EFF27EB5AA30098EE86 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,11 +374,14 @@
 		};
 		C0664F0E27EB5AA30098EE86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303E1219DACFB322D3E1FCF6 /* Pods-mouth5.1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mouth5.1/mouth5.1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9CF86ZXT2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = mouth5.1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +389,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +397,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "qwert.mouth5-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,11 +406,14 @@
 		};
 		C0664F0F27EB5AA30098EE86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD79A709964899C9713039EB /* Pods-mouth5.1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mouth5.1/mouth5.1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9CF86ZXT2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = mouth5.1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +421,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +429,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "qwert.mouth5-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
